@@ -19,7 +19,7 @@ const createColllection = (collectionName) => {
     client.connect((err,db) => {
         projectsCollection = client.db().collection(collectionName);
         if(!err) {
-            console.log('MongoDB Connected')
+            console.log('DB Connected')
         }
         else {
             console.log("DB Connection Error: ", err);

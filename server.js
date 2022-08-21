@@ -60,7 +60,7 @@ app.post('/api/projects',(req,res) => {
             res.json({statusCode: 400, message: err})
         }
         else {
-            res.json({statusCode: 200, message:"Project Successfully added", data: result})
+            res.json({statusCode: 200, message:"Project added", data: result})
         }
     })
 })

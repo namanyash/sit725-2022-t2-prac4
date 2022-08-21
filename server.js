@@ -22,7 +22,7 @@ const createColllection = (collectionName) => {
             console.log('MongoDB Connected')
         }
         else {
-            console.log("DB Error: ", err);
+            console.log("DB Connection Error: ", err);
             process.exit(1);
         }
     })
